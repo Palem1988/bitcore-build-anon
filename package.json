@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-build-zclassic",
-  "version": "0.9.0-zclassic",
+  "name": "bitcore-build-btcp",
+  "version": "0.9.0-btcp",
   "description": "A helper for common tasks to build bitcore modules",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/z-classic/bitcore-build-zclassic"
+    "url": "git://github.com/interbiznw-btcpcontrib/bitcore-build-btcp"
   },
   "keywords": [
     "bitcore",
-    "zclassic",
+    "btcp",
     "zcash"
   ],
   "contributors": [
@@ -39,9 +39,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/z-classic/bitcore-build-zclassic/issues"
+    "url": "https://github.com/interbiznw-btcpcontrib/bitcore-build-btcp/issues"
   },
-  "homepage": "https://github.com/z-classic/bitcore-build-zclassic",
+  "homepage": "https://github.com/interbiznw-btcpcontrib/bitcore-build-btcp",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",

@@ -1,4 +1,4 @@
-# bitcore-build-zclassic
+# bitcore-build-btcp
 
 A helper to add tasks to gulp.
 
@@ -7,14 +7,14 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install bitcore-build-zclassic
+npm install bitcore-build-btcp
 ```
 
-and use and require in your gulp file: 
+and use and require in your gulp file:
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-zclassic');
+var bitcoreTasks = require('bitcore-build-btcp');
 
 bitcoreTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
@@ -39,4 +39,4 @@ Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/mas
 
 Copyright 2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 
-Forked by The Zclassic Team
+Forked by The btcp Team
