@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/interbiznw-btcpcontrib/bitcore-build-btcp"
+    "url": "git://github.com/BTCPrivate/bitcore-build-btcp"
   },
   "keywords": [
     "bitcore",
@@ -39,9 +39,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/interbiznw-btcpcontrib/bitcore-build-btcp/issues"
+    "url": "https://github.com/BTCPrivate/bitcore-build-btcp/issues"
   },
-  "homepage": "https://github.com/interbiznw-btcpcontrib/bitcore-build-btcp",
+  "homepage": "https://github.com/BTCPrivate/bitcore-build-btcp",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
