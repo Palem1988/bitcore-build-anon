@@ -54,12 +54,12 @@ function startGulp(name, opts) {
 
   opts = opts || {};
   var browser = !opts.skipBrowser;
-  var fullname = name ? 'bitcore-' + name + '-btcp' : 'bitcore';
+  var fullname = name ? 'bitcore-' + name + '-anon' : 'bitcore';
   var files = ['lib/**/*.js'];
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/bitcore-build-btcp/';
+  var buildPath = './node_modules/bitcore-build-anon/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-btcp -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-anon -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-btcp -o bitcore-lib-btcp.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-anon -o bitcore-lib-anon.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
