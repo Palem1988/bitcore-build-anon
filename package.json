@@ -1,6 +1,6 @@
 {
   "name": "bitcore-build-anon",
-  "version": "0.9.0-anon",
+  "version": "1.0.0",
   "description": "A helper for common tasks to build bitcore modules",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "bitcore",
-    "btcp",
+    "anon",
     "zcash"
   ],
   "contributors": [

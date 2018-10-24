@@ -25,7 +25,7 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('bitcore-build');
+var bitcoreTasks = require('bitcore-build-anon');
 bitcoreTasks('submodule', {skipBrowsers: true});
 ```
 
